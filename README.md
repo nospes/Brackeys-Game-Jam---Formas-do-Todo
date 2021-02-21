@@ -1,2 +1,7 @@
 # FormasDoTodoGIT
- Brackeys GameJam
+ Brackeys Game
+ 
+ 
+ credits to Galaxy Image = http://www.pngall.com/galaxy-png
+ 
+ 
