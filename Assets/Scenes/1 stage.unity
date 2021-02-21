@@ -1465,6 +1465,7 @@ GameObject:
   - component: {fileID: 1554523612}
   - component: {fileID: 1554523611}
   - component: {fileID: 1554523613}
+  - component: {fileID: 1554523614}
   m_Layer: 0
   m_Name: Soul0
   m_TagString: SoulPlayer
@@ -1570,6 +1571,110 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 1554523611}
   soulqnt: 0
+  musicplay: {fileID: 1554523614}
+  stg11: {fileID: 8300000, guid: ef6dff4daf544e74d8d6ffb118775124, type: 3}
+  stg12: {fileID: 8300000, guid: aa023a6673ad43841ae3df8ab0caebe5, type: 3}
+  stg13: {fileID: 8300000, guid: 2702431a6abbb264e9edd46b2a6f9a36, type: 3}
+  stg21: {fileID: 8300000, guid: 0e2aa525604b7d448af9b75ef53b84cf, type: 3}
+  stg22: {fileID: 8300000, guid: 53b4f028e82f4d2418e92f746e0bd57c, type: 3}
+  stg23: {fileID: 8300000, guid: e32031d858535e040bebd84208442749, type: 3}
+  stg3: {fileID: 8300000, guid: 712d00e39ab4bf2479b983eb4289f90a, type: 3}
+--- !u!82 &1554523614
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554523609}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.2
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1659617509
 GameObject:
   m_ObjectHideFlags: 0
@@ -8925,6 +9030,7 @@ MonoBehaviour:
   playerspeed: 10
   soulcount: 0
   animator: {fileID: 1832509497}
+  audioplay: {fileID: 1832509503}
   death: {fileID: 8300000, guid: e6dd1eef42ce342488b46bd5877e535e, type: 3}
   dooropen: {fileID: 8300000, guid: fb917769d1d9dc9498a0fd526d4c3762, type: 3}
   nextlevel: {fileID: 8300000, guid: 4bf630d62582f124cb97dc9e00352de1, type: 3}

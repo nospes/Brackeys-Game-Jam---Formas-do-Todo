@@ -13,12 +13,13 @@ public class Movement : MonoBehaviour
     GameObject obj;
     public Animator animator;
 
-    private AudioSource audioplay;
+    public AudioSource audioplay;
     public AudioClip death;
     public AudioClip dooropen;
     public AudioClip nextlevel;
     public AudioClip soulpickup;
     public CinemachineVirtualCamera vcam;
+
 
     public int FOV;
 
@@ -156,6 +157,7 @@ public class Movement : MonoBehaviour
         }
 
     }
+
 
 
 }
